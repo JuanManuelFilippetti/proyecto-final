@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: $color-fuente;
+}
+
+
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $color-fuente;
+}
+
+form {
+    display: block;
+}
+
+.imagenPerrodrilo {
+    width: 40vw;
+    max-width: 100rem;
+    min-width: 32rem;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+/*.imgGaleria {
+    width: 40vw;
+    max-width: 100rem;
+    min-width: 32rem;
+    margin: left;
+}*/
+
+
+

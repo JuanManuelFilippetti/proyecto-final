@@ -1,0 +1,55 @@
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color-botones;
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuImg {
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    height: 10rem;
+
+    .menuPrincipal {
+        @include anclas;
+
+        i {
+            font-size: 4rem;
+            color:$color-botones;
+        }
+
+        
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin-right: 3rem;
+
+            a {
+                @include anclas;
+                transition: all 0.3s ease;
+                &:hover {
+                    color:$color-fuente-secundario;
+                }
+            }
+        }
+    }
+}
