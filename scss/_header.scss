@@ -24,16 +24,15 @@ header {
     align-items: center;
     padding: 1rem 0;
     height: 10rem;
-
+    
     .menuPrincipal {
         @include anclas;
 
-        i {
-            font-size: 4rem;
+        a {
+            font-size: 1.5rem;
+            font-family: 'Fredoka One', cursive;
             color:$color-botones;
         }
-
-        
     }
 
     ul {
@@ -45,7 +44,7 @@ header {
 
             a {
                 @include anclas;
-                transition: all 0.3s ease;
+                transition: all 0.8s ease;
                 &:hover {
                     color:$color-fuente-secundario;
                 }
