@@ -13,15 +13,9 @@ html {
         min-height: 100vh;
         background: linear-gradient(rgba(5, 5, 12, 0.2), rgba(5, 7, 12, 0.20)), url(../imagenes/fondo.jpg) no-repeat center center fixed;
         background-size: cover;
-        
-        
         color: $color-fuente;
         font-family: 'Roboto', sans-serif;
     }
 }
 
-.carrusel {
-    width: 90%;
-    height: 30%;
-    text-align: center;
-}
+
